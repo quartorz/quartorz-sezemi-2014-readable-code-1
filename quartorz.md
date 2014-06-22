@@ -1,3 +1,3 @@
 Twitter: quartorz
 
-UEC
+電気通信大学
