@@ -4,4 +4,5 @@ C++
 --------
 
 1 `make all`
-2 `./recipe`
+
+2 `./bin/recipe`
