@@ -10,8 +10,8 @@ int main(int argc, char *argv[])
 	std::ifstream data(argv[1]);
 	std::string recipe;
 
-	for(int i = 0; i < 3; i++){
+	for(int id = 1; id <= 3; id++){
 		std::getline(data, recipe);
-		std::cout << recipe << std::endl;
+		std::cout << id << ": " << recipe << std::endl;
 	}
 }
