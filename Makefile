@@ -1,8 +1,8 @@
 all: recipe
 
 recipe: main.o
-	g++ main.o -o recipe
+	g++ bin/main.o -o bin/recipe
 
 main.o: main.cpp
-	g++ -c main.cpp
+	g++ -c main.cpp -o bin/main.o
 
